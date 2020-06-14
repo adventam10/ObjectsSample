@@ -26,6 +26,8 @@
 		0EF8843724962C1B0014EEF6 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF8843624962C1B0014EEF6 /* PageViewController.swift */; };
 		0EF8843A249631690014EEF6 /* SamplePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF88438249631690014EEF6 /* SamplePageViewController.swift */; };
 		0EF8843B249631690014EEF6 /* SamplePageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EF88439249631690014EEF6 /* SamplePageViewController.xib */; };
+		0EF8843D249637850014EEF6 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF8843C249637850014EEF6 /* PlayerViewController.swift */; };
+		0EF884422496388E0014EEF6 /* sample.mov in Resources */ = {isa = PBXBuildFile; fileRef = 0EF884412496388E0014EEF6 /* sample.mov */; };
 		0EFF28222494FE2F00302AB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFF28212494FE2F00302AB6 /* AppDelegate.swift */; };
 		0EFF28242494FE2F00302AB6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFF28232494FE2F00302AB6 /* SceneDelegate.swift */; };
 		0EFF28292494FE2F00302AB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EFF28272494FE2F00302AB6 /* Main.storyboard */; };
@@ -77,6 +79,8 @@
 		0EF8843624962C1B0014EEF6 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		0EF88438249631690014EEF6 /* SamplePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamplePageViewController.swift; sourceTree = "<group>"; };
 		0EF88439249631690014EEF6 /* SamplePageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SamplePageViewController.xib; sourceTree = "<group>"; };
+		0EF8843C249637850014EEF6 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		0EF884412496388E0014EEF6 /* sample.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = sample.mov; sourceTree = "<group>"; };
 		0EFF281E2494FE2F00302AB6 /* ObjectsSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjectsSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EFF28212494FE2F00302AB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0EFF28232494FE2F00302AB6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -141,6 +145,14 @@
 			path = Tab;
 			sourceTree = "<group>";
 		};
+		0EF884402496388E0014EEF6 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				0EF884412496388E0014EEF6 /* sample.mov */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		0EFF28152494FE2F00302AB6 = {
 			isa = PBXGroup;
 			children = (
@@ -164,6 +176,7 @@
 		0EFF28202494FE2F00302AB6 /* ObjectsSample */ = {
 			isa = PBXGroup;
 			children = (
+				0EF884402496388E0014EEF6 /* Resource */,
 				0EFF28212494FE2F00302AB6 /* AppDelegate.swift */,
 				0EFF28232494FE2F00302AB6 /* SceneDelegate.swift */,
 				0EFF285A24951AC400302AB6 /* Views */,
@@ -207,6 +220,7 @@
 				0EF88432249620F40014EEF6 /* MapViewController.swift */,
 				0EF884342496243B0014EEF6 /* CollectionViewController.swift */,
 				0EF8843624962C1B0014EEF6 /* PageViewController.swift */,
+				0EF8843C249637850014EEF6 /* PlayerViewController.swift */,
 				0EF884292495F1DE0014EEF6 /* Tab */,
 				0E58367C2495E79100F5E13F /* Navigation */,
 			);
@@ -336,6 +350,7 @@
 				0EFF282E2494FE3100302AB6 /* LaunchScreen.storyboard in Resources */,
 				0E5836732495D56C00F5E13F /* Sample2TableViewCell.xib in Resources */,
 				0EFF285824950DBB00302AB6 /* CustomView.xib in Resources */,
+				0EF884422496388E0014EEF6 /* sample.mov in Resources */,
 				0EF8843B249631690014EEF6 /* SamplePageViewController.xib in Resources */,
 				0E5836772495D9D200F5E13F /* Sample2CollectionViewCell.xib in Resources */,
 				0EFF282B2494FE3100302AB6 /* Assets.xcassets in Resources */,
@@ -374,6 +389,7 @@
 				0E0D4AEB2495BD190046D0CD /* ScrollViewController.swift in Sources */,
 				0EF884312495FAB30014EEF6 /* GesturesViewController.swift in Sources */,
 				0EF8843A249631690014EEF6 /* SamplePageViewController.swift in Sources */,
+				0EF8843D249637850014EEF6 /* PlayerViewController.swift in Sources */,
 				0E5836762495D9D200F5E13F /* Sample2CollectionViewCell.swift in Sources */,
 				0E0D4AEF2495CF0A0046D0CD /* ContainersViewController.swift in Sources */,
 				0EFF28222494FE2F00302AB6 /* AppDelegate.swift in Sources */,

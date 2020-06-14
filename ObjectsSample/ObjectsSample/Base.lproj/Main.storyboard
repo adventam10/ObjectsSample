@@ -217,6 +217,7 @@
                         <segue destination="WJ3-0A-Pnj" kind="show" identifier="toMap" id="8H0-wc-aDK"/>
                         <segue destination="sTw-Oi-4Wv" kind="show" identifier="toCollection" id="gal-B8-fKj"/>
                         <segue destination="hd9-UJ-6fv" kind="show" identifier="toPage" id="0Wv-yC-sZy"/>
+                        <segue destination="8wn-6y-pMT" kind="show" identifier="toPlayer" id="hQi-i7-tfS"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XbR-B6-XZy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1496,6 +1497,16 @@
                 </gestureRecognizer>
             </objects>
             <point key="canvasLocation" x="-4988" y="788"/>
+        </scene>
+        <!--AV Player View Controller-->
+        <scene sceneID="jxo-Cr-fl5">
+            <objects>
+                <avPlayerViewController videoGravity="AVLayerVideoGravityResizeAspect" id="8wn-6y-pMT" customClass="PlayerViewController" customModule="ObjectsSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="uLE-2c-k9p"/>
+                </avPlayerViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZQ8-3r-9Yv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-5242" y="-1780"/>
         </scene>
         <!--Page-->
         <scene sceneID="02p-ao-7Yn">
