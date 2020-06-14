@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="1sh-G7-gBW">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation View Controller-->
+        <scene sceneID="602-PB-QFX">
+            <objects>
+                <viewController id="1sh-G7-gBW" customClass="NavigationViewController" customModule="ObjectsSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="we6-6q-cXs">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aWh-bz-6ns">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <items>
+                                    <navigationItem title="Navigation" id="jMj-th-b4P">
+                                        <barButtonItem key="leftBarButtonItem" title="Navigation1" id="OjX-4K-5nd">
+                                            <connections>
+                                                <action selector="tappedNavigation1BarButtonItem:" destination="1sh-G7-gBW" id="vzt-83-Y3T"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="Navigation2" id="jRD-fR-e9L">
+                                            <connections>
+                                                <action selector="tappedNavigation2BarButtonItem:" destination="1sh-G7-gBW" id="U7S-hH-gdg"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SRL-XE-OA6">
+                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
+                                <items>
+                                    <barButtonItem title="Tool1" id="lX6-3J-gsV">
+                                        <connections>
+                                            <action selector="tappedTool1BarButtonItem:" destination="1sh-G7-gBW" id="SqF-IZ-3e6"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="Hws-iA-7Re"/>
+                                    <barButtonItem title="Tool2" id="Pl7-SL-7uX">
+                                        <connections>
+                                            <action selector="tappedTool2BarButtonItem:" destination="1sh-G7-gBW" id="C9H-f2-b6I"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="eku-CM-ruS"/>
+                                    <barButtonItem title="Tool3" id="AN7-oI-ai3">
+                                        <connections>
+                                            <action selector="tappedTool3BarButtonItem:" destination="1sh-G7-gBW" id="LoC-Fz-Afh"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="9ZA-Jl-Bm2">
+                                <rect key="frame" x="151.5" y="104" width="111.5" height="49"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="↑" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RAd-T5-s38">
+                                        <rect key="frame" x="0.0" y="0.0" width="111.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Navigation Bar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Zf-2p-cwe">
+                                        <rect key="frame" x="0.0" y="28.5" width="111.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="dox-n9-EsE">
+                                <rect key="frame" x="178" y="748" width="58" height="49"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ToolBar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tDm-Ld-PE6">
+                                        <rect key="frame" x="0.0" y="0.0" width="58" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="↓" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Wd-dA-kVQ">
+                                        <rect key="frame" x="0.0" y="28.5" width="58" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="aWh-bz-6ns" firstAttribute="top" secondItem="acS-9D-Qz6" secondAttribute="top" id="10L-JQ-I3d"/>
+                            <constraint firstItem="dox-n9-EsE" firstAttribute="centerX" secondItem="we6-6q-cXs" secondAttribute="centerX" id="4u9-6J-Y5o"/>
+                            <constraint firstItem="acS-9D-Qz6" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="dox-n9-EsE" secondAttribute="trailing" constant="16" id="5pz-yf-oyM"/>
+                            <constraint firstItem="9ZA-Jl-Bm2" firstAttribute="centerX" secondItem="we6-6q-cXs" secondAttribute="centerX" id="Af6-we-wxP"/>
+                            <constraint firstItem="acS-9D-Qz6" firstAttribute="bottom" secondItem="SRL-XE-OA6" secondAttribute="bottom" id="EpL-QR-w1X"/>
+                            <constraint firstItem="9ZA-Jl-Bm2" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="acS-9D-Qz6" secondAttribute="leading" constant="16" id="F09-XQ-SK1"/>
+                            <constraint firstItem="acS-9D-Qz6" firstAttribute="trailing" secondItem="aWh-bz-6ns" secondAttribute="trailing" id="Mc4-Zd-1oc"/>
+                            <constraint firstItem="SRL-XE-OA6" firstAttribute="leading" secondItem="acS-9D-Qz6" secondAttribute="leading" id="VkT-u9-KO9"/>
+                            <constraint firstItem="SRL-XE-OA6" firstAttribute="top" secondItem="dox-n9-EsE" secondAttribute="bottom" constant="16" id="Xbp-Wh-Zzx"/>
+                            <constraint firstItem="9ZA-Jl-Bm2" firstAttribute="top" secondItem="aWh-bz-6ns" secondAttribute="bottom" constant="16" id="aA2-Za-VH5"/>
+                            <constraint firstItem="dox-n9-EsE" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="acS-9D-Qz6" secondAttribute="leading" constant="16" id="bQH-qY-xaG"/>
+                            <constraint firstItem="acS-9D-Qz6" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="9ZA-Jl-Bm2" secondAttribute="trailing" constant="16" id="dSu-yo-eWG"/>
+                            <constraint firstItem="aWh-bz-6ns" firstAttribute="leading" secondItem="acS-9D-Qz6" secondAttribute="leading" id="hQm-sV-ujl"/>
+                            <constraint firstItem="SRL-XE-OA6" firstAttribute="trailing" secondItem="acS-9D-Qz6" secondAttribute="trailing" id="lIr-vL-0oe"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="acS-9D-Qz6"/>
+                    </view>
+                    <connections>
+                        <outlet property="fixedSpace" destination="Hws-iA-7Re" id="oHG-Zp-OKn"/>
+                        <outlet property="flexibleSpace" destination="eku-CM-ruS" id="7kJ-XI-snJ"/>
+                        <outlet property="navigation1BarButtonItem" destination="OjX-4K-5nd" id="Bf8-qt-EJt"/>
+                        <outlet property="navigation2BarButtonItem" destination="jRD-fR-e9L" id="LO6-0C-F4R"/>
+                        <outlet property="navigationBar" destination="aWh-bz-6ns" id="LuD-Uj-BCQ"/>
+                        <outlet property="tool1BarButtonItem" destination="lX6-3J-gsV" id="7aM-zs-JnS"/>
+                        <outlet property="tool2BarButtonItem" destination="Pl7-SL-7uX" id="GOf-v4-9cA"/>
+                        <outlet property="tool3BarButtonItem" destination="AN7-oI-ai3" id="Dfx-td-hde"/>
+                        <outlet property="toolBar" destination="SRL-XE-OA6" id="cly-Qk-zU5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uRo-rW-HzM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="93" y="59"/>
+        </scene>
+    </scenes>
+</document>

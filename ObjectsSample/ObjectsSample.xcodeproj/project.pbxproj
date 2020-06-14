@@ -15,6 +15,8 @@
 		0E5836732495D56C00F5E13F /* Sample2TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E5836712495D56C00F5E13F /* Sample2TableViewCell.xib */; };
 		0E5836762495D9D200F5E13F /* Sample2CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5836742495D9D200F5E13F /* Sample2CollectionViewCell.swift */; };
 		0E5836772495D9D200F5E13F /* Sample2CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E5836752495D9D200F5E13F /* Sample2CollectionViewCell.xib */; };
+		0E5836792495E77A00F5E13F /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5836782495E77A00F5E13F /* NavigationViewController.swift */; };
+		0E58367B2495E78C00F5E13F /* Navigation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E58367A2495E78C00F5E13F /* Navigation.storyboard */; };
 		0EFF28222494FE2F00302AB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFF28212494FE2F00302AB6 /* AppDelegate.swift */; };
 		0EFF28242494FE2F00302AB6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFF28232494FE2F00302AB6 /* SceneDelegate.swift */; };
 		0EFF28292494FE2F00302AB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EFF28272494FE2F00302AB6 /* Main.storyboard */; };
@@ -55,6 +57,8 @@
 		0E5836712495D56C00F5E13F /* Sample2TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Sample2TableViewCell.xib; sourceTree = "<group>"; };
 		0E5836742495D9D200F5E13F /* Sample2CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample2CollectionViewCell.swift; sourceTree = "<group>"; };
 		0E5836752495D9D200F5E13F /* Sample2CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Sample2CollectionViewCell.xib; sourceTree = "<group>"; };
+		0E5836782495E77A00F5E13F /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		0E58367A2495E78C00F5E13F /* Navigation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Navigation.storyboard; sourceTree = "<group>"; };
 		0EFF281E2494FE2F00302AB6 /* ObjectsSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjectsSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EFF28212494FE2F00302AB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0EFF28232494FE2F00302AB6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -100,6 +104,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E58367C2495E79100F5E13F /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				0E58367A2495E78C00F5E13F /* Navigation.storyboard */,
+				0E5836782495E77A00F5E13F /* NavigationViewController.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
 		0EFF28152494FE2F00302AB6 = {
 			isa = PBXGroup;
 			children = (
@@ -162,6 +175,7 @@
 				0EFF28532495010100302AB6 /* WidgetsViewController.swift */,
 				0E0D4AEC2495C3280046D0CD /* WebViewController.swift */,
 				0E0D4AEE2495CF0A0046D0CD /* ContainersViewController.swift */,
+				0E58367C2495E79100F5E13F /* Navigation */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -290,6 +304,7 @@
 				0E5836772495D9D200F5E13F /* Sample2CollectionViewCell.xib in Resources */,
 				0EFF282B2494FE3100302AB6 /* Assets.xcassets in Resources */,
 				0EFF28292494FE2F00302AB6 /* Main.storyboard in Resources */,
+				0E58367B2495E78C00F5E13F /* Navigation.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,6 +330,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E0D4AF12495CF410046D0CD /* SampleContainerViewController.swift in Sources */,
+				0E5836792495E77A00F5E13F /* NavigationViewController.swift in Sources */,
 				0EFF285C24951BEB00302AB6 /* PickersViewController.swift in Sources */,
 				0EFF285624950DAC00302AB6 /* CustomView.swift in Sources */,
 				0EFF28542495010100302AB6 /* WidgetsViewController.swift in Sources */,
