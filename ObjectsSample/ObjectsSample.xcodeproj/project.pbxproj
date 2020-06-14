@@ -20,6 +20,7 @@
 		0EF8842B2495F2220014EEF6 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF8842A2495F2220014EEF6 /* TabBarController.swift */; };
 		0EF8842D2495F23A0014EEF6 /* TabItem1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF8842C2495F23A0014EEF6 /* TabItem1ViewController.swift */; };
 		0EF8842F2495F2500014EEF6 /* TabItem2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF8842E2495F2500014EEF6 /* TabItem2ViewController.swift */; };
+		0EF884312495FAB30014EEF6 /* GesturesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF884302495FAB30014EEF6 /* GesturesViewController.swift */; };
 		0EFF28222494FE2F00302AB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFF28212494FE2F00302AB6 /* AppDelegate.swift */; };
 		0EFF28242494FE2F00302AB6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFF28232494FE2F00302AB6 /* SceneDelegate.swift */; };
 		0EFF28292494FE2F00302AB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EFF28272494FE2F00302AB6 /* Main.storyboard */; };
@@ -65,6 +66,7 @@
 		0EF8842A2495F2220014EEF6 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		0EF8842C2495F23A0014EEF6 /* TabItem1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItem1ViewController.swift; sourceTree = "<group>"; };
 		0EF8842E2495F2500014EEF6 /* TabItem2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItem2ViewController.swift; sourceTree = "<group>"; };
+		0EF884302495FAB30014EEF6 /* GesturesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GesturesViewController.swift; sourceTree = "<group>"; };
 		0EFF281E2494FE2F00302AB6 /* ObjectsSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjectsSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EFF28212494FE2F00302AB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0EFF28232494FE2F00302AB6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -191,6 +193,7 @@
 				0EFF28532495010100302AB6 /* WidgetsViewController.swift */,
 				0E0D4AEC2495C3280046D0CD /* WebViewController.swift */,
 				0E0D4AEE2495CF0A0046D0CD /* ContainersViewController.swift */,
+				0EF884302495FAB30014EEF6 /* GesturesViewController.swift */,
 				0EF884292495F1DE0014EEF6 /* Tab */,
 				0E58367C2495E79100F5E13F /* Navigation */,
 			);
@@ -353,6 +356,7 @@
 				0EFF285624950DAC00302AB6 /* CustomView.swift in Sources */,
 				0EFF28542495010100302AB6 /* WidgetsViewController.swift in Sources */,
 				0E0D4AEB2495BD190046D0CD /* ScrollViewController.swift in Sources */,
+				0EF884312495FAB30014EEF6 /* GesturesViewController.swift in Sources */,
 				0E5836762495D9D200F5E13F /* Sample2CollectionViewCell.swift in Sources */,
 				0E0D4AEF2495CF0A0046D0CD /* ContainersViewController.swift in Sources */,
 				0EFF28222494FE2F00302AB6 /* AppDelegate.swift in Sources */,
@@ -466,7 +470,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -520,7 +524,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
