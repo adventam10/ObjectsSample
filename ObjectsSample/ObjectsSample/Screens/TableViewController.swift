@@ -19,6 +19,7 @@ enum Menu: CaseIterable {
     case tab
     case map
     case collection
+    case page
 
     var title: String {
         switch self {
@@ -42,6 +43,8 @@ enum Menu: CaseIterable {
             return "Map"
         case .collection:
             return "Collection"
+        case .page:
+            return "Page"
         }
     }
 
@@ -67,6 +70,8 @@ enum Menu: CaseIterable {
             return "toMap"
         case .collection:
             return "toCollection"
+        case .page:
+            return "toPage"
         }
     }
 }
