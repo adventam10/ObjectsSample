@@ -87,6 +87,36 @@
             </objects>
             <point key="canvasLocation" x="-425" y="-1450"/>
         </scene>
+        <!--Map-->
+        <scene sceneID="SUn-jG-71v">
+            <objects>
+                <viewController id="WJ3-0A-Pnj" customClass="MapViewController" customModule="ObjectsSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8hU-tz-ny1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsScale="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BQH-3F-rQ2">
+                                <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="WuW-e4-zW0" firstAttribute="trailing" secondItem="BQH-3F-rQ2" secondAttribute="trailing" id="XLS-xL-7id"/>
+                            <constraint firstItem="WuW-e4-zW0" firstAttribute="bottom" secondItem="BQH-3F-rQ2" secondAttribute="bottom" id="aj0-fl-aEx"/>
+                            <constraint firstItem="BQH-3F-rQ2" firstAttribute="leading" secondItem="WuW-e4-zW0" secondAttribute="leading" id="bar-ik-xz3"/>
+                            <constraint firstItem="BQH-3F-rQ2" firstAttribute="top" secondItem="WuW-e4-zW0" secondAttribute="top" id="emE-gm-EhT"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="WuW-e4-zW0"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Map" id="p57-Lq-sdJ"/>
+                    <connections>
+                        <outlet property="mapView" destination="BQH-3F-rQ2" id="yy9-4L-szZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hzk-5k-aJ0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2188" y="-961"/>
+        </scene>
         <!--Tab-->
         <scene sceneID="sWK-hY-cfY">
             <objects>
@@ -149,6 +179,7 @@
                         <segue destination="WB9-Va-jwa" kind="show" identifier="toNavigation" id="AlQ-QV-IzY"/>
                         <segue destination="05m-KZ-Wfz" kind="show" identifier="toTab" id="gTt-nn-5F6"/>
                         <segue destination="aO8-IQ-IzR" kind="show" identifier="toGestures" id="8nd-yL-QwA"/>
+                        <segue destination="WJ3-0A-Pnj" kind="show" identifier="toMap" id="8H0-wc-aDK"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XbR-B6-XZy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
