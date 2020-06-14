@@ -1499,11 +1499,11 @@
             </objects>
             <point key="canvasLocation" x="-4988" y="788"/>
         </scene>
-        <!--AV Player View Controller-->
+        <!--Player-->
         <scene sceneID="jxo-Cr-fl5">
             <objects>
                 <avPlayerViewController videoGravity="AVLayerVideoGravityResizeAspect" id="8wn-6y-pMT" customClass="PlayerViewController" customModule="ObjectsSample" customModuleProvider="target" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="uLE-2c-k9p"/>
+                    <navigationItem key="navigationItem" title="Player" id="uLE-2c-k9p"/>
                 </avPlayerViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZQ8-3r-9Yv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
