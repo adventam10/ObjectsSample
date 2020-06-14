@@ -16,7 +16,15 @@ final class PickersViewController: UIViewController {
             pickerView.dataSource = self
         }
     }
-    @IBOutlet private weak var datePicker: UIDatePicker!
+    @IBOutlet private weak var datePicker: UIDatePicker! {
+        didSet {
+            // コードで設定する場合
+//            datePicker.date = Date()
+//            datePicker.datePickerMode = .dateAndTime
+//            datePicker.minuteInterval = 1
+//            datePicker.addTarget(self, action: #selector(datePickerValueChanged(_:)), for: .valueChanged)
+        }
+    }
 
     private let pickerTitles: [[String]] = [["AAA", "BBB", "CCC"], ["EEE", "FFF", "GGG"]]
     private let dateFormatter: DateFormatter = {

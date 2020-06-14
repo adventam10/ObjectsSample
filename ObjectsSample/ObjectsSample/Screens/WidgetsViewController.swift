@@ -17,7 +17,6 @@ final class WidgetsViewController: UITableViewController {
 //            label.textColor = .systemGray2
 //            label.textAlignment = .natural
 //            label.font = .systemFont(ofSize: 17)
-            button.addTarget(self, action: <#T##Selector#>, for: .touchUpOutside)
         }
     }
     @IBOutlet private weak var button: UIButton! {
