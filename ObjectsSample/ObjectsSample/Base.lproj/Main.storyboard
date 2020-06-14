@@ -8,6 +8,104 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Item2-->
+        <scene sceneID="sdO-TP-L7j">
+            <objects>
+                <viewController title="Item2" id="b63-57-wPy" customClass="TabItem2ViewController" customModule="ObjectsSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="O6a-UJ-h9b">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="botman_orange" translatesAutoresizingMaskIntoConstraints="NO" id="EL8-iX-Dud">
+                                <rect key="frame" x="87.5" y="233.5" width="200" height="200"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qzY-ez-bVY">
+                                <rect key="frame" x="16" y="60" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="tappedButton:" destination="b63-57-wPy" eventType="touchUpInside" id="qdp-IG-Mai"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="qzY-ez-bVY" firstAttribute="top" secondItem="KUA-Go-DCP" secondAttribute="top" constant="16" id="2vw-Bg-neD"/>
+                            <constraint firstItem="EL8-iX-Dud" firstAttribute="top" relation="greaterThanOrEqual" secondItem="KUA-Go-DCP" secondAttribute="top" constant="16" id="8Iu-r9-xlb"/>
+                            <constraint firstItem="KUA-Go-DCP" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="EL8-iX-Dud" secondAttribute="trailing" constant="16" id="AEA-y6-ujl"/>
+                            <constraint firstItem="EL8-iX-Dud" firstAttribute="centerY" secondItem="O6a-UJ-h9b" secondAttribute="centerY" id="By3-V0-wDA"/>
+                            <constraint firstItem="EL8-iX-Dud" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="KUA-Go-DCP" secondAttribute="leading" constant="16" id="Naq-k4-jOh"/>
+                            <constraint firstItem="qzY-ez-bVY" firstAttribute="leading" secondItem="KUA-Go-DCP" secondAttribute="leading" constant="16" id="Ubq-X1-NxL"/>
+                            <constraint firstItem="KUA-Go-DCP" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="EL8-iX-Dud" secondAttribute="bottom" constant="16" id="UwJ-P0-sj9"/>
+                            <constraint firstItem="EL8-iX-Dud" firstAttribute="centerX" secondItem="O6a-UJ-h9b" secondAttribute="centerX" id="Zic-fJ-eUD"/>
+                            <constraint firstItem="KUA-Go-DCP" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="qzY-ez-bVY" secondAttribute="trailing" constant="16" id="qNx-K7-D3B"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="KUA-Go-DCP"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" image="tab_item2" id="k6P-RV-qQ0"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0zY-E3-DNw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-425" y="-784"/>
+        </scene>
+        <!--Item1-->
+        <scene sceneID="hGW-vA-swN">
+            <objects>
+                <viewController title="Item1" id="WbP-O8-VOQ" customClass="TabItem1ViewController" customModule="ObjectsSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ijg-nn-YWP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="botman_red" translatesAutoresizingMaskIntoConstraints="NO" id="o6K-4r-WRO">
+                                <rect key="frame" x="87.5" y="233.5" width="200" height="200"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y32-Ci-UZC">
+                                <rect key="frame" x="16" y="60" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="tappedButton:" destination="WbP-O8-VOQ" eventType="touchUpInside" id="IUJ-PB-xfE"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="GvK-fK-uQ4" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="y32-Ci-UZC" secondAttribute="trailing" constant="16" id="5oa-lZ-riY"/>
+                            <constraint firstItem="GvK-fK-uQ4" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="o6K-4r-WRO" secondAttribute="trailing" constant="16" id="FiB-ag-KDV"/>
+                            <constraint firstItem="y32-Ci-UZC" firstAttribute="top" secondItem="GvK-fK-uQ4" secondAttribute="top" constant="16" id="QHF-qX-5Tj"/>
+                            <constraint firstItem="o6K-4r-WRO" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="GvK-fK-uQ4" secondAttribute="leading" constant="16" id="T8F-i0-eyt"/>
+                            <constraint firstItem="o6K-4r-WRO" firstAttribute="centerY" secondItem="ijg-nn-YWP" secondAttribute="centerY" id="eTx-Ei-Pf1"/>
+                            <constraint firstItem="o6K-4r-WRO" firstAttribute="centerX" secondItem="ijg-nn-YWP" secondAttribute="centerX" id="kze-Im-IKO"/>
+                            <constraint firstItem="GvK-fK-uQ4" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="o6K-4r-WRO" secondAttribute="bottom" constant="16" id="mJc-sD-Zqc"/>
+                            <constraint firstItem="y32-Ci-UZC" firstAttribute="leading" secondItem="GvK-fK-uQ4" secondAttribute="leading" constant="16" id="qiH-iY-iMH"/>
+                            <constraint firstItem="o6K-4r-WRO" firstAttribute="top" relation="greaterThanOrEqual" secondItem="GvK-fK-uQ4" secondAttribute="top" constant="16" id="uxx-Ts-DQn"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="GvK-fK-uQ4"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" image="tab_item1" id="9Gr-IQ-qE8"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gAF-kO-cKC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-425" y="-1450"/>
+        </scene>
+        <!--Tab-->
+        <scene sceneID="sWK-hY-cfY">
+            <objects>
+                <tabBarController id="05m-KZ-Wfz" customClass="TabBarController" customModule="ObjectsSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" title="Tab" id="TMm-Bv-lJq"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="GTa-M3-O1I">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="WbP-O8-VOQ" kind="relationship" relationship="viewControllers" id="K0w-tH-f0W"/>
+                        <segue destination="b63-57-wPy" kind="relationship" relationship="viewControllers" id="yd3-tR-guJ"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IYq-EG-kS0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1378" y="-1117"/>
+        </scene>
         <!--Navigation-->
         <scene sceneID="ExE-LY-nX8">
             <objects>
@@ -49,6 +147,7 @@
                         <segue destination="FiO-n7-Tso" kind="show" identifier="toWeb" id="6uj-yN-8Tt"/>
                         <segue destination="KuY-x0-UiG" kind="show" identifier="toContainers" id="qGo-ox-JxK"/>
                         <segue destination="WB9-Va-jwa" kind="show" identifier="toNavigation" id="AlQ-QV-IzY"/>
+                        <segue destination="05m-KZ-Wfz" kind="show" identifier="toTab" id="gTt-nn-5F6"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XbR-B6-XZy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -59,7 +158,7 @@
         <scene sceneID="LW6-Rf-rhW">
             <objects>
                 <viewController id="KuY-x0-UiG" customClass="ContainersViewController" customModule="ObjectsSample" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="RI7-hD-fIR">
+                    <view key="view" contentMode="scaleToFill" id="RI7-hD-fIR">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -1089,6 +1188,7 @@
                             <constraint firstItem="vXo-Zo-Z7N" firstAttribute="centerX" secondItem="Zbh-k5-xgS" secondAttribute="centerX" id="vph-3q-cTu"/>
                             <constraint firstItem="vXo-Zo-Z7N" firstAttribute="centerY" secondItem="Zbh-k5-xgS" secondAttribute="centerY" id="yB8-pP-3zA"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="Umc-49-EoV"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XvR-Aa-Igi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1097,7 +1197,11 @@
         </scene>
     </scenes>
     <resources>
+        <image name="botman_orange" width="200" height="200"/>
+        <image name="botman_red" width="200" height="200"/>
         <image name="folder.fill" catalog="system" width="128" height="95"/>
         <image name="link.circle" catalog="system" width="128" height="121"/>
+        <image name="tab_item1" width="30" height="30"/>
+        <image name="tab_item2" width="30" height="30"/>
     </resources>
 </document>

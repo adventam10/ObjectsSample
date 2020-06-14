@@ -16,6 +16,7 @@ enum Menu: CaseIterable {
     case containers
     case gestures
     case navigation
+    case tab
 
     var title: String {
         switch self {
@@ -33,6 +34,8 @@ enum Menu: CaseIterable {
             return "Gestures"
         case .navigation:
             return "Navigation"
+        case .tab:
+            return "Tab"
         }
     }
 
@@ -52,6 +55,8 @@ enum Menu: CaseIterable {
             return "toGestures"
         case .navigation:
             return "toNavigation"
+        case .tab:
+            return "toTab"
         }
     }
 }
