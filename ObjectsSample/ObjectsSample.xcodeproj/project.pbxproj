@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0E0D4AEB2495BD190046D0CD /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0D4AEA2495BD190046D0CD /* ScrollViewController.swift */; };
+		0E0D4AED2495C3280046D0CD /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0D4AEC2495C3280046D0CD /* WebViewController.swift */; };
 		0EFF28222494FE2F00302AB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFF28212494FE2F00302AB6 /* AppDelegate.swift */; };
 		0EFF28242494FE2F00302AB6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFF28232494FE2F00302AB6 /* SceneDelegate.swift */; };
 		0EFF28292494FE2F00302AB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EFF28272494FE2F00302AB6 /* Main.storyboard */; };
@@ -41,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		0E0D4AEA2495BD190046D0CD /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
+		0E0D4AEC2495C3280046D0CD /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		0EFF281E2494FE2F00302AB6 /* ObjectsSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjectsSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EFF28212494FE2F00302AB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0EFF28232494FE2F00302AB6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 				0EFF285B24951BEB00302AB6 /* PickersViewController.swift */,
 				0E0D4AEA2495BD190046D0CD /* ScrollViewController.swift */,
 				0EFF28532495010100302AB6 /* WidgetsViewController.swift */,
+				0E0D4AEC2495C3280046D0CD /* WebViewController.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -298,6 +301,7 @@
 				0EFF28222494FE2F00302AB6 /* AppDelegate.swift in Sources */,
 				0EFF28242494FE2F00302AB6 /* SceneDelegate.swift in Sources */,
 				0EFF28522494FEC100302AB6 /* TableViewController.swift in Sources */,
+				0E0D4AED2495C3280046D0CD /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -35,11 +35,47 @@
                         <segue destination="me9-4C-gtC" kind="show" identifier="toWidgets" id="gq1-EC-Hnc"/>
                         <segue destination="7Nz-1d-Dis" kind="show" identifier="toPickers" id="2TZ-yI-J1p"/>
                         <segue destination="ghk-mg-upQ" kind="show" identifier="toScroll" id="ln1-Wp-gCB"/>
+                        <segue destination="FiO-n7-Tso" kind="show" identifier="toWeb" id="6uj-yN-8Tt"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XbR-B6-XZy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-104" y="-116"/>
+        </scene>
+        <!--Web-->
+        <scene sceneID="QqD-YX-oZ2">
+            <objects>
+                <viewController id="FiO-n7-Tso" customClass="WebViewController" customModule="ObjectsSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gv4-oU-FwT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZvK-gd-IlW">
+                                <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="ZvK-gd-IlW" firstAttribute="leading" secondItem="tAm-uN-iFf" secondAttribute="leading" id="KEY-EU-brL"/>
+                            <constraint firstItem="ZvK-gd-IlW" firstAttribute="top" secondItem="tAm-uN-iFf" secondAttribute="top" id="MUJ-9c-SZE"/>
+                            <constraint firstItem="tAm-uN-iFf" firstAttribute="trailing" secondItem="ZvK-gd-IlW" secondAttribute="trailing" id="NMs-zG-tln"/>
+                            <constraint firstItem="tAm-uN-iFf" firstAttribute="bottom" secondItem="ZvK-gd-IlW" secondAttribute="bottom" id="x2E-u6-Qxg"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="tAm-uN-iFf"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Web" id="GEf-Yl-1wL"/>
+                    <connections>
+                        <outlet property="webView" destination="ZvK-gd-IlW" id="adt-hb-4OU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zev-2D-Ebm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1057" y="629"/>
         </scene>
         <!--Pickers-->
         <scene sceneID="r5q-aO-iJW">

@@ -12,6 +12,7 @@ enum Menu: CaseIterable {
     case widgets
     case pickers
     case scroll
+    case web
     case containers
     case gestures
 
@@ -23,6 +24,8 @@ enum Menu: CaseIterable {
             return "Pickers"
         case .scroll:
             return "Scroll"
+        case .web:
+            return "Web"
         case .containers:
             return "Containers"
         case .gestures:
@@ -38,6 +41,8 @@ enum Menu: CaseIterable {
             return "toPickers"
         case .scroll:
             return "toScroll"
+        case .web:
+            return "toWeb"
         case .containers:
             return "toContainers"
         case .gestures:
