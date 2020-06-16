@@ -11,9 +11,9 @@ Xcode 11.4 の Storyboard の Objects のサンプル集。
 | --- | --- | --- | --- |
 |![containers](https://user-images.githubusercontent.com/34936885/84593236-218d9900-ae86-11ea-9bfa-aaa7cdc7772c.png)|![tab](https://user-images.githubusercontent.com/34936885/84593239-28b4a700-ae86-11ea-84fe-7b967102ef82.png)|![navigation](https://user-images.githubusercontent.com/34936885/84593245-2e11f180-ae86-11ea-9746-77f1e5eef79a.png)|![map](https://user-images.githubusercontent.com/34936885/84593273-5e599000-ae86-11ea-8c26-bcb10365ecbd.png)|
 
-| Collection | Player |
-| --- | --- |
-|![collection](https://user-images.githubusercontent.com/34936885/84593278-63b6da80-ae86-11ea-965e-c4becfb02fbb.png)|![player](https://user-images.githubusercontent.com/34936885/84593283-6a455200-ae86-11ea-9e70-ad14a8928b77.png)|
+| Collection | Player | Visual Effect |
+| --- | --- | --- |
+|![collection](https://user-images.githubusercontent.com/34936885/84593278-63b6da80-ae86-11ea-965e-c4becfb02fbb.png)|![player](https://user-images.githubusercontent.com/34936885/84593283-6a455200-ae86-11ea-9e70-ad14a8928b77.png)|![visual_effect](https://user-images.githubusercontent.com/34936885/84727303-afbe6800-afc9-11ea-9247-4a0240dfbdd6.png)|
 
 Split (iPhone)
 
